@@ -66,20 +66,24 @@
 - Cập nhật release notes khi có phiên bản mới hoặc thay đổi đáng kể.
 - Release notes được tạo trong workspace và sau đó đưa vào bản cập nhật tài liệu trên GitHub.
 
-## 2026-11-13
+## 2026-11-07
 
 ### Mục tiêu
-- Hoàn thiện luồng form liên hệ, trang kết quả và tài liệu dự án.
+- Hoàn thiện các nội dung trang cá nhân, luồng form liên hệ và tài liệu dự án.
 
 ### Công việc đã thực hiện
 - Tạo kiểu dáng cho form gửi lời nhắn: thẻ nền, nhãn, trường nhập, trạng thái focus, nút gửi và ghi chú.
 - Điều chỉnh khoảng cách và bo góc của form trên màn hình nhỏ.
 - Tạo và trang trí `ket-qua.html` với thông báo kết quả, phần lưu ý và liên kết quay lại form.
+- Bổ sung bảng thông tin học tập và các thẻ giới thiệu dự án C++, portfolio, website thực hành.
+- Trang trí khu vực học tập và dự án bằng bố cục responsive, màu sắc đồng bộ và hiệu ứng hover.
+- Thu gọn ảnh đại diện trên header thành logo tròn và thêm gạch chân chuyển động cho menu khi hover/focus.
 - Sắp xếp nội dung footer theo hàng ngang, cho phép xuống dòng trên màn hình hẹp.
 - Cập nhật `README.md` và `CHANGELOG.md` để mô tả đúng cấu trúc, tính năng và giới hạn của form.
 
 ### Kết quả
-- Trang chính, form liên hệ và trang kết quả có giao diện đồng bộ, thích ứng với màn hình nhỏ.
+- Trang chính có các phần giới thiệu, học tập, dự án và liên hệ với giao diện đồng bộ, thích ứng với màn hình nhỏ.
+- Các liên kết dự án đang là nội dung chờ cập nhật, chưa phải liên kết repository đã xác nhận.
 - Footer hiển thị thông tin theo hàng ngang khi đủ không gian.
 - Tài liệu dự án hướng dẫn cách chạy và nêu rõ form chưa gửi email hoặc lưu dữ liệu.
 

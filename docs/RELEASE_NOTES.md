@@ -45,4 +45,25 @@
 
 ### Notes
 - Form dùng phương thức GET đến `ket-qua.html`; chưa gửi email hoặc lưu dữ liệu lên máy chủ.
-- Cần tạo trang `ket-qua.html` để hoàn thiện luồng sau khi gửi form.
+- Trang `ket-qua.html` hiển thị thông báo minh họa sau khi gửi; không xử lý hoặc lưu các trường dữ liệu.
+
+## [Version 1.0.2] - 2026-11-13
+
+### Highlights
+- Mở rộng trang cá nhân với các phần học tập và dự án.
+- Đồng bộ giao diện các thẻ nội dung, bảng học tập và trang kết quả theo tông màu xanh.
+- Hoàn thiện trình bày responsive cho các khu vực nội dung và footer.
+
+### Added
+- Bảng học tập liệt kê học kỳ, học phần tiêu biểu và sản phẩm.
+- Các thẻ dự án giới thiệu bài tập C++, portfolio và website thực hành.
+- Hiệu ứng gạch chân chuyển động cho liên kết menu và logo ảnh đại diện dạng tròn trên header.
+
+### Changed
+- Trang trí lại bảng học tập và thẻ dự án, bổ sung trạng thái hover.
+- Cập nhật README về cấu trúc dự án, các phần nội dung và tài liệu evidence.
+- Bổ sung nhật ký phát triển cho các cập nhật giao diện mới.
+
+### Notes
+- Các đường dẫn repository hiển thị trong thẻ dự án hiện được đánh dấu là cần cập nhật.
+- Form liên hệ chỉ minh họa luồng GET đến trang kết quả; không gửi email hoặc lưu dữ liệu.
