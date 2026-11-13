@@ -9,14 +9,20 @@ html {
 body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
-    background: linear-gradient(135deg, #eef6ff 0%, #f9fbff 45%, #e8f3ff 100%);
-    color: #1b1b1b;
+    background:
+        radial-gradient(ellipse at 12% 20%, rgba(116, 190, 255, 0.3), transparent 34rem),
+        radial-gradient(ellipse at 88% 72%, rgba(142, 128, 255, 0.18), transparent 32rem),
+        linear-gradient(135deg, #edf5ff 0%, #f8faff 48%, #e6efff 100%);
+    background-attachment: fixed;
+    color: #172a46;
     line-height: 1.7;
 }
 
 header.stile-header {
-    background: linear-gradient(90deg, #1e5c9e, #2f7dd3);
-    box-shadow: 0 6px 18px rgba(18, 61, 108, 0.22);
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(110deg, #123c70, #236db5 58%, #3987d5);
+    box-shadow: 0 8px 26px rgba(18, 61, 108, 0.2);
 }
 
 .menu {
@@ -35,6 +41,7 @@ header.stile-header {
     font-weight: 700;
     text-decoration: none;
     letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.16);
 }
 
 .menu ul {
@@ -51,54 +58,118 @@ header.stile-header {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
-    transition: color 0.2s ease, opacity 0.2s ease;
+    transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
 }
 
-.menu a:hover {
+.menu-list a {
+    display: block;
+    padding: 8px 13px;
+    border-radius: 999px;
+}
+
+.menu-list a:hover,
+.menu-list a:focus-visible {
     color: #ffffff;
-    opacity: 0.9;
+    background-color: rgba(255, 255, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+.hero {
+    position: relative;
+    isolation: isolate;
+    max-width: 1100px;
+    min-height: 460px;
+    margin: 56px auto 72px;
+    padding: clamp(32px, 6vw, 72px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(32px, 7vw, 90px);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.76);
+    box-shadow: 0 24px 70px rgba(37, 76, 130, 0.13);
+    backdrop-filter: blur(12px);
+}
+
+.hero::before {
+    position: absolute;
+    z-index: -1;
+    top: -150px;
+    right: -120px;
+    width: 360px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: linear-gradient(135deg, rgba(89, 164, 238, 0.14), rgba(142, 128, 255, 0.1));
+    content: "";
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 620px;
 }
 
 h1 {
-    max-width: 700px;
-    margin: 60px auto 18px;
-    padding: 0 20px;
-    color: #0d1b2a;
+    margin: 0 0 24px;
+    color: #102b4c;
     font-size: clamp(2.2rem, 4vw, 3.4rem);
     line-height: 1.2;
-    text-align: center;
+    text-align: left;
+    letter-spacing: -0.035em;
+}
+
+h1::before {
+    display: block;
+    margin-bottom: 14px;
+    color: #2874bd;
+    content: "XIN CHÀO, MÌNH LÀ AN";
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.16em;
 }
 
 p {
     max-width: 760px;
-    margin: 0 auto 16px;
-    padding: 0 20px;
+    margin: 0 0 16px;
     font-size: 1.08rem;
-    color: #2e3a46;
+    color: #4a5d73;
+    text-align: left;
+}
+
+.hero img {
+    flex: 0 0 auto;
+    width: clamp(220px, 29vw, 330px);
+    aspect-ratio: 1;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 8px solid #ffffff;
+    box-shadow: 0 0 0 1px rgba(57, 135, 213, 0.15), 0 20px 46px rgba(30, 92, 158, 0.24);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero img:hover {
+    transform: translateY(-5px) scale(1.025);
+    box-shadow: 0 0 0 5px rgba(57, 135, 213, 0.12), 0 24px 50px rgba(30, 92, 158, 0.28);
+}
+
+footer {
+    padding: 28px 20px;
+    background: linear-gradient(110deg, #123c70, #1d5e9f);
+    color: #eaf4ff;
     text-align: center;
 }
 
-main {
-    max-width: 1100px;
-    margin: 40px auto 60px;
-    padding: 0 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer p {
+    margin: 4px auto;
+    color: inherit;
+    font-size: 0.95rem;
+    text-align: center;
 }
 
-img {
-    width: min(360px, 80vw);
-    display: block;
-    border-radius: 28px;
-    border: 5px solid rgba(255, 255, 255, 0.8);
-    box-shadow: 0 18px 40px rgba(30, 92, 158, 0.2);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-img:hover {
-    transform: translateY(-4px) scale(1.01);
-    box-shadow: 0 22px 45px rgba(30, 92, 158, 0.25);
+footer p:first-child {
+    font-weight: 600;
 }
 
 @media (max-width: 700px) {
@@ -116,11 +187,46 @@ img:hover {
         gap: 12px 18px;
     }
 
-    h1 {
-        margin-top: 40px;
+    .hero {
+        min-height: auto;
+        margin: 28px 16px 44px;
+        padding: 24px;
+        flex-direction: column-reverse;
+        gap: 28px;
+        text-align: center;
+        border-radius: 24px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    h1,
+    .hero-content p {
+        text-align: center;
+    }
+
+    .hero img {
+        width: min(260px, 70vw);
+    }
+
+    h1::before {
+        font-size: 0.68rem;
     }
 
     p {
         font-size: 1rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
     }
 }
