@@ -30,6 +30,45 @@
             <img src="assets/1776437118885_575168163791388192_2598527699416213972_11af59475048e288da78d4b6be019b2d.jpg"
                 alt="Ảnh đại diện của An" />
         </section>
+    <form action="ket-qua.html" method="get" class="contact-form">
+          <h3>Gửi lời nhắn</h3>
+          <p>Vui lòng nhập đầy đủ thông tin bên dưới.</p>
+
+          <div class="form-group">
+            <label for="fullname">Họ và tên:</label>
+            <input type="text" id="fullname" name="fullname" minlength="2" required aria-describedby="fullname-help" />
+            <small id="fullname-help">
+              Họ tên phải có ít nhất 2 ký tự.
+            </small>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required aria-describedby="email-help" />
+            <small id="email-help">
+              Nhập đúng định dạng email.
+            </small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Lời nhắn:</label>
+            <textarea id="message" name="message" rows="5" minlength="10" maxlength="500" required
+              aria-describedby="message-help"></textarea>
+            <small id="message-help">
+              Nội dung từ 10 đến 500 ký tự.
+            </small>
+          </div>
+
+          <button type="submit" class="button">
+            Gửi lời nhắn
+          </button>
+
+          <p class="form-note">
+            Đây là form thực hành, chưa gửi email thật
+            và không lưu dữ liệu lên máy chủ.
+            Dữ liệu nhập sẽ xuất hiện trên URL trang kết quả.
+          </p>
+        </form>
     </main>
     <footer>
         <p>&copy; 2026 Trang cá nhân của An. All rights reserved.</p>

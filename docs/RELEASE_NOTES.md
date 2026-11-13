@@ -1,6 +1,7 @@
 # Release Notes
 
-## Version 1.0.0 - 2026-11-13
+
+## Version 1.0.0 - 2026-11-06
 
 ### Highlights
 - Hoàn thành trang cá nhân cơ bản bằng HTML và CSS.
@@ -26,3 +27,22 @@
 ### Notes
 - Dự án mới chỉ ở mức cơ bản và có thể tiếp tục phát triển thêm các phần như kỹ năng, dự án và liên hệ.
 - Các thay đổi tiếp theo sẽ được cập nhật trong `CHANGELOG.md`.
+## [Version 1.0.1] - 2026-11-06
+
+### Highlights
+- Làm mới nền và các thành phần giao diện theo tông xanh, phong cách thẻ kính mờ.
+- Bổ sung phần gửi lời nhắn với giao diện phù hợp trên máy tính và điện thoại.
+
+### Added
+- Form nhập họ tên, email và lời nhắn với các ràng buộc độ dài và trường bắt buộc.
+- Trạng thái focus cho trường nhập liệu và nút gửi để hỗ trợ thao tác bằng bàn phím.
+- Hướng dẫn cấu trúc dự án, cách chạy và lưu ý sử dụng form trong `README.md`.
+
+### Changed
+- Cải thiện bố cục giới thiệu, menu, ảnh đại diện và footer.
+- Trang trí form với nhãn, trường nhập, nút gửi và ghi chú giải thích.
+- Tinh chỉnh bố cục mobile và tôn trọng cài đặt giảm chuyển động của hệ điều hành.
+
+### Notes
+- Form dùng phương thức GET đến `ket-qua.html`; chưa gửi email hoặc lưu dữ liệu lên máy chủ.
+- Cần tạo trang `ket-qua.html` để hoàn thiện luồng sau khi gửi form.

@@ -64,4 +64,23 @@
 
 ### Ghi chú
 - Cập nhật release notes khi có phiên bản mới hoặc thay đổi đáng kể.
-- Tài liệu này đã được tạo trong workspace; chưa ghi nhận việc đẩy thay đổi này lên GitHub.
+- Release notes được tạo trong workspace và sau đó đưa vào bản cập nhật tài liệu trên GitHub.
+
+## 2026-11-13
+
+### Mục tiêu
+- Hoàn thiện giao diện phần gửi lời nhắn và cập nhật tài liệu hướng dẫn dự án.
+
+### Công việc đã thực hiện
+- Tạo kiểu dáng cho form gửi lời nhắn: thẻ nền, nhãn, trường nhập, trạng thái focus, nút gửi và ghi chú.
+- Điều chỉnh khoảng cách và bo góc của form trên màn hình nhỏ.
+- Cập nhật `CHANGELOG.md` để ghi lại các thay đổi giao diện và form.
+- Viết lại `README.md` với mô tả dự án, cấu trúc thư mục, cách chạy và lưu ý về form.
+
+### Kết quả
+- Form có giao diện nhất quán với trang cá nhân và có thể sử dụng trên thiết bị di động.
+- Tài liệu dự án mô tả rõ cách mở trang và giới hạn hiện tại của việc gửi lời nhắn.
+
+### Ghi chú
+- Form dùng phương thức GET và trỏ đến `ket-qua.html`; hiện chưa gửi email hoặc lưu dữ liệu lên máy chủ.
+- Cần tạo trang kết quả nếu muốn hoàn thiện luồng gửi form.
