@@ -1,14 +1,14 @@
 # Trang cá nhân của An
 
-Bài tập lớn cá nhân môn Thiết kế web và Triển khai hệ thống phần mềm. Dự án là một trang giới thiệu cá nhân được xây dựng bằng HTML và CSS thuần.
+Bài tập lớn cá nhân môn Thiết kế web và Triển khai hệ thống phần mềm. Dự án là trang cá nhân tĩnh được xây dựng bằng HTML và CSS thuần.
 
 ## Tính năng
 
-- Thanh điều hướng và phần giới thiệu cá nhân.
-- Ảnh đại diện hiển thị dạng hình tròn.
-- Form gửi lời nhắn gồm họ tên, email và nội dung; có kiểm tra dữ liệu bắt buộc và độ dài.
-- Giao diện responsive cho màn hình máy tính và điện thoại.
-- Hiệu ứng hover/focus và hỗ trợ giảm chuyển động theo cài đặt của hệ điều hành.
+- Trang chính có menu điều hướng, phần giới thiệu và ảnh đại diện.
+- Form liên hệ gồm họ tên, email và lời nhắn; trình duyệt kiểm tra trường bắt buộc, định dạng email và độ dài nội dung.
+- Trang kết quả có thông báo xác nhận, lưu ý về tính minh họa và liên kết quay lại form.
+- Giao diện thích ứng với màn hình nhỏ, có trạng thái hover/focus và hỗ trợ cài đặt giảm chuyển động.
+- Footer hiển thị thông tin theo hàng ngang khi đủ không gian và tự xuống dòng trên màn hình hẹp.
 
 ## Cấu trúc dự án
 
@@ -21,16 +21,17 @@ Bài tập lớn cá nhân môn Thiết kế web và Triển khai hệ thống p
 │   ├── AI_LOG.md           # Nhật ký quá trình phát triển
 │   └── RELEASE_NOTES.md    # Ghi chú phát hành
 ├── CHANGELOG.md            # Lịch sử thay đổi
-└── index.html              # Trang chính
+├── index.html              # Trang chính và form liên hệ
+└── ket-qua.html            # Trang kết quả gửi form
 ```
 
 ## Chạy dự án
 
-Không cần cài đặt thư viện. Mở `index.html` bằng trình duyệt hoặc chạy một máy chủ tĩnh tại thư mục dự án.
+Không cần cài đặt thư viện hoặc bước build. Mở `index.html` bằng trình duyệt hoặc chạy máy chủ tĩnh tại thư mục dự án.
 
 ## Lưu ý về form
 
-Form hiện dùng `GET` và trỏ đến `ket-qua.html`. Đây là form thực hành, chưa gửi email và không lưu dữ liệu lên máy chủ; dữ liệu form sẽ được thêm vào URL. Cần tạo trang `ket-qua.html` để xử lý/hiển thị kết quả khi gửi form.
+Form dùng phương thức `GET` để mở `ket-qua.html`; dữ liệu nhập có thể xuất hiện trên URL. Đây chỉ là luồng minh họa cho bài tập: không gửi email, không lưu dữ liệu lên máy chủ và trang kết quả không xử lý nội dung đã nhập. Không gửi thông tin cá nhân thật.
 
 ## Tài liệu
 

@@ -10,20 +10,18 @@ Tất cả các thay đổi quan trọng của dự án sẽ được ghi lại 
 
 ## [2026-11-13]
 ### Added
-- Tạo tệp `index.html` chứa thông tin giới thiệu cá nhân.
-- Thêm menu điều hướng cơ bản.
-- Thêm ảnh đại diện và nội dung giới thiệu.
 - Thêm form gửi lời nhắn với các trường họ tên, email và nội dung.
+- Thêm trang `ket-qua.html` làm trang kết quả cho luồng form.
 
 ### Changed
-- Làm mới nền trang, thẻ giới thiệu, menu và ảnh đại diện.
-- Trang trí form gửi lời nhắn với trường nhập liệu, trạng thái focus, nút gửi và ghi chú.
-- Tinh chỉnh bố cục cho màn hình nhỏ và hỗ trợ tùy chọn giảm chuyển động.
-- Bổ sung README hướng dẫn chạy dự án và mô tả các giới hạn hiện tại của form.
+- Làm mới giao diện trang chính, form liên hệ và trang kết quả theo cùng tông màu.
+- Bố trí thông tin footer theo hàng ngang và cho phép tự xuống dòng khi màn hình hẹp.
+- Cập nhật README về cấu trúc dự án, cách chạy và giới hạn của form.
 
-### Fixed
-- Sửa định dạng cơ bản của trang để dễ nhìn hơn.
-- Tối ưu bố cục cho màn hình điện thoại.
+### Improved
+- Tối ưu bố cục cho màn hình nhỏ và hỗ trợ tùy chọn giảm chuyển động.
+- Bổ sung trạng thái focus cho các thành phần tương tác.
 
 ### Notes
-- Form hiện chuyển dữ liệu bằng phương thức GET đến `ket-qua.html`; chưa gửi email hoặc lưu dữ liệu trên máy chủ.
+- Form dùng phương thức GET đến `ket-qua.html`; dữ liệu có thể xuất hiện trên URL.
+- Form chỉ phục vụ minh họa, không gửi email, không lưu dữ liệu và trang kết quả không xử lý các trường đã gửi.

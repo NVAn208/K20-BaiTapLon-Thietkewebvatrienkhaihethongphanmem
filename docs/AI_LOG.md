@@ -69,18 +69,20 @@
 ## 2026-11-13
 
 ### Mục tiêu
-- Hoàn thiện giao diện phần gửi lời nhắn và cập nhật tài liệu hướng dẫn dự án.
+- Hoàn thiện luồng form liên hệ, trang kết quả và tài liệu dự án.
 
 ### Công việc đã thực hiện
 - Tạo kiểu dáng cho form gửi lời nhắn: thẻ nền, nhãn, trường nhập, trạng thái focus, nút gửi và ghi chú.
 - Điều chỉnh khoảng cách và bo góc của form trên màn hình nhỏ.
-- Cập nhật `CHANGELOG.md` để ghi lại các thay đổi giao diện và form.
-- Viết lại `README.md` với mô tả dự án, cấu trúc thư mục, cách chạy và lưu ý về form.
+- Tạo và trang trí `ket-qua.html` với thông báo kết quả, phần lưu ý và liên kết quay lại form.
+- Sắp xếp nội dung footer theo hàng ngang, cho phép xuống dòng trên màn hình hẹp.
+- Cập nhật `README.md` và `CHANGELOG.md` để mô tả đúng cấu trúc, tính năng và giới hạn của form.
 
 ### Kết quả
-- Form có giao diện nhất quán với trang cá nhân và có thể sử dụng trên thiết bị di động.
-- Tài liệu dự án mô tả rõ cách mở trang và giới hạn hiện tại của việc gửi lời nhắn.
+- Trang chính, form liên hệ và trang kết quả có giao diện đồng bộ, thích ứng với màn hình nhỏ.
+- Footer hiển thị thông tin theo hàng ngang khi đủ không gian.
+- Tài liệu dự án hướng dẫn cách chạy và nêu rõ form chưa gửi email hoặc lưu dữ liệu.
 
 ### Ghi chú
 - Form dùng phương thức GET và trỏ đến `ket-qua.html`; hiện chưa gửi email hoặc lưu dữ liệu lên máy chủ.
-- Cần tạo trang kết quả nếu muốn hoàn thiện luồng gửi form.
+- Dữ liệu nhập có thể xuất hiện trên URL; trang kết quả hiện chỉ hiển thị nội dung minh họa, không xử lý các trường đã gửi.

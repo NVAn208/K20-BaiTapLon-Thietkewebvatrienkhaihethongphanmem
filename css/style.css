@@ -296,6 +296,20 @@ footer p:first-child {
     font-weight: 600;
 }
 
+.site-footer .container {
+    width: min(100%, 1200px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px 28px;
+}
+
+.site-footer .container p {
+    margin: 0;
+}
+
 @media (max-width: 700px) {
     .menu {
         flex-direction: column;
@@ -345,6 +359,210 @@ footer p:first-child {
 
     p {
         font-size: 1rem;
+    }
+}
+
+.site-header {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(110deg, #123c70, #236db5 58%, #3987d5);
+    box-shadow: 0 8px 26px rgba(18, 61, 108, 0.2);
+}
+
+.site-header .container {
+    width: min(100% - 40px, 1200px);
+    min-height: 76px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.site-header .logo {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.site-header .menu {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.site-header .menu a {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 999px;
+    color: #eaf4ff;
+    font-size: 0.94rem;
+    transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+.site-header .menu a:hover,
+.site-header .menu a:focus-visible {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.result-main {
+    min-height: calc(100vh - 174px);
+    padding: 64px 0;
+    display: grid;
+    align-items: center;
+}
+
+.result-main > .container {
+    width: min(100% - 40px, 760px);
+    margin: 0 auto;
+}
+
+.result-panel {
+    position: relative;
+    padding: clamp(32px, 7vw, 64px);
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.95);
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.84);
+    box-shadow: 0 24px 70px rgba(37, 76, 130, 0.15);
+    text-align: center;
+    backdrop-filter: blur(12px);
+}
+
+.result-panel::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(90deg, #2874bd, #7d8df1);
+    content: "";
+}
+
+.result-icon {
+    width: 76px;
+    height: 76px;
+    margin: 0 auto 22px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #ccebdc;
+    border-radius: 50%;
+    background: #eaf8f0;
+    color: #218451;
+    box-shadow: 0 8px 22px rgba(33, 132, 81, 0.12);
+}
+
+.result-icon svg {
+    width: 36px;
+    height: 36px;
+}
+
+.result-panel .result-eyebrow {
+    margin: 0 0 10px;
+    color: #2874bd;
+    font-size: 0.78rem;
+    font-weight: 750;
+    letter-spacing: 0.15em;
+    text-align: center;
+}
+
+.result-panel h1 {
+    margin: 0 0 14px;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+    text-align: center;
+}
+
+.result-panel h1::before {
+    display: none;
+    content: none;
+}
+
+.result-panel .result-summary {
+    margin: 0 auto 28px;
+    color: #62748a;
+    font-size: 1.05rem;
+    text-align: center;
+}
+
+.result-notice {
+    margin: 0 0 28px;
+    padding: 16px 18px;
+    border: 1px solid #dce8f4;
+    border-radius: 14px;
+    background: #f3f7fc;
+    color: #596e85;
+    font-size: 0.94rem;
+    text-align: left;
+}
+
+.result-notice strong {
+    color: #274c75;
+}
+
+.result-panel .button {
+    min-height: 48px;
+    padding: 11px 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    background: linear-gradient(110deg, #1d5e9f, #3987d5);
+    box-shadow: 0 8px 18px rgba(30, 92, 158, 0.2);
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.result-panel .button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(30, 92, 158, 0.28);
+}
+
+.result-panel .button:focus-visible {
+    outline: 3px solid rgba(57, 135, 213, 0.4);
+    outline-offset: 3px;
+}
+
+@media (max-width: 700px) {
+    .site-header .container {
+        width: min(100% - 32px, 1200px);
+        padding: 14px 0;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .site-header .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px;
+    }
+
+    .site-header .menu a {
+        padding: 7px 9px;
+        font-size: 0.88rem;
+    }
+
+    .result-main {
+        min-height: auto;
+        padding: 40px 0;
+    }
+
+    .result-main > .container {
+        width: min(100% - 32px, 760px);
+    }
+
+    .result-panel {
+        padding: 36px 22px;
+        border-radius: 24px;
     }
 }
 
