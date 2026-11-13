@@ -230,6 +230,17 @@ p {
     border-radius: 16px;
     border-spacing: 0;
     background: #ffffff;
+    box-shadow: 0 8px 24px rgba(37, 76, 130, 0.07);
+}
+
+.study th:first-child,
+.study td:first-child {
+    width: 16%;
+}
+
+.study th:nth-child(2),
+.study td:nth-child(2) {
+    width: 36%;
 }
 
 .study th,
@@ -238,6 +249,12 @@ p {
     text-align: left;
     vertical-align: top;
     overflow-wrap: anywhere;
+    border-right: 1px solid #e6edf5;
+}
+
+.study th:last-child,
+.study td:last-child {
+    border-right: 0;
 }
 
 .study th {
@@ -245,6 +262,7 @@ p {
     color: #ffffff;
     font-size: 0.94rem;
     font-weight: 700;
+    letter-spacing: 0.02em;
 }
 
 .study td {
@@ -257,14 +275,20 @@ p {
     background: #f6f9fd;
 }
 
-.study tbody tr:hover {
+.study tbody tr:hover td {
     background: #eef5ff;
 }
 
 .study tbody td:first-child {
+    background: #f0f6fd;
     color: #2874bd;
     font-weight: 700;
     white-space: nowrap;
+    text-align: center;
+}
+
+.study tbody tr:hover td:first-child {
+    background: #e4effc;
 }
 
 .study tbody tr:last-child td {
@@ -477,6 +501,86 @@ footer p:first-child {
         font-size: 0.88rem;
     }
 
+    .study {
+        display: block;
+        overflow: visible;
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+
+    .study thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        clip-path: inset(50%);
+    }
+
+    .study tbody {
+        display: grid;
+        gap: 12px;
+    }
+
+    .study tbody tr {
+        display: grid;
+        padding: 8px 14px;
+        border: 1px solid #dbe7f3;
+        border-radius: 14px;
+        background: #ffffff;
+        box-shadow: 0 8px 20px rgba(37, 76, 130, 0.07);
+    }
+
+    .study tbody tr:nth-child(even),
+    .study tbody tr:hover {
+        background: #ffffff;
+    }
+
+    .study th:first-child,
+    .study td:first-child,
+    .study th:nth-child(2),
+    .study td:nth-child(2) {
+        width: auto;
+    }
+
+    .study tbody td,
+    .study tbody td:first-child {
+        display: grid;
+        grid-template-columns: minmax(6rem, 0.55fr) 1fr;
+        gap: 12px;
+        padding: 10px 0;
+        border: 0;
+        border-bottom: 1px solid #e6edf5;
+        background: transparent;
+        text-align: left;
+        white-space: normal;
+    }
+
+    .study tbody td::before {
+        color: #2874bd;
+        font-size: 0.82rem;
+        font-weight: 700;
+    }
+
+    .study tbody td:nth-child(1)::before {
+        content: "Học kỳ";
+    }
+
+    .study tbody td:nth-child(2)::before {
+        content: "Học phần";
+    }
+
+    .study tbody td:nth-child(3)::before {
+        content: "Sản phẩm";
+    }
+
+    .study tbody tr:last-child td:last-child {
+        border-bottom: 0;
+    }
+
     .contact-form {
         margin: 0 16px 48px;
         border-radius: 22px;
@@ -491,7 +595,41 @@ footer p:first-child {
     }
 }
 .section-alt {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(240, 246, 255, 0.9));
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border-color: rgba(255, 255, 255, 0.96);
+    background:
+        radial-gradient(ellipse at 92% 8%, rgba(116, 190, 255, 0.2), transparent 22rem),
+        linear-gradient(135deg, rgba(231, 242, 255, 0.96), rgba(248, 250, 255, 0.94) 56%, rgba(239, 238, 255, 0.9));
+}
+
+.section-alt::before {
+    position: absolute;
+    z-index: -1;
+    top: -150px;
+    right: -100px;
+    width: 340px;
+    aspect-ratio: 1;
+    border: 1px solid rgba(57, 135, 213, 0.1);
+    border-radius: 50%;
+    background: linear-gradient(145deg, rgba(89, 164, 238, 0.11), rgba(142, 128, 255, 0.08));
+    content: "";
+    pointer-events: none;
+}
+
+.section-alt::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #2874bd, #7d8df1 70%, #9c8cf2);
+    content: "";
+}
+
+.section-alt > .container {
+    position: relative;
 }
 
 .projects {
@@ -563,6 +701,26 @@ footer p:first-child {
     font-weight: 650;
     overflow-wrap: anywhere;
 }
+
+.pending-link a {
+    color: #1d5e9f;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.pending-link a:hover {
+    color: #3987d5;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.pending-link a:focus-visible {
+    border-radius: 3px;
+    outline: 2px solid #3987d5;
+    outline-offset: 3px;
+}
+
 .site-header {
     position: relative;
     z-index: 1;

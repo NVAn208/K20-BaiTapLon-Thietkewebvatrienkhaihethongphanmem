@@ -47,7 +47,7 @@
 - Form dùng phương thức GET đến `ket-qua.html`; chưa gửi email hoặc lưu dữ liệu lên máy chủ.
 - Trang `ket-qua.html` hiển thị thông báo minh họa sau khi gửi; không xử lý hoặc lưu các trường dữ liệu.
 
-## [Version 1.0.2] - 2026-11-13
+## [Version 1.0.2] - 2026-11-07
 
 ### Highlights
 - Mở rộng trang cá nhân với các phần học tập và dự án.
@@ -65,5 +65,21 @@
 - Bổ sung nhật ký phát triển cho các cập nhật giao diện mới.
 
 ### Notes
-- Các đường dẫn repository hiển thị trong thẻ dự án hiện được đánh dấu là cần cập nhật.
+- Liên kết "Trang Web này" trong thẻ dự án chưa có địa chỉ đích và cần được cập nhật.
 - Form liên hệ chỉ minh họa luồng GET đến trang kết quả; không gửi email hoặc lưu dữ liệu.
+
+## [Version 1.0.3] - 2026-11-13
+
+### Highlights
+- Làm mới bảng học tập và toàn bộ khu vực dự án.
+- Cải thiện cách trình bày nội dung trên màn hình điện thoại.
+
+### Changed
+- Bảng học tập có cột rõ ràng, màu nền dịu và trạng thái hover; trên màn hình nhỏ mỗi hàng được trình bày thành thẻ có nhãn.
+- Khu vực `.section-alt` có nền gradient, điểm nhấn trang trí và dải màu ở đầu khu vực.
+- Tinh chỉnh trạng thái hover/focus của liên kết dự án.
+- Cập nhật README, changelog và AI log cho khớp với giao diện mới.
+
+### Notes
+- Liên kết "Trang Web này" hiện vẫn là placeholder `#`.
+- Form liên hệ không gửi email và không lưu dữ liệu lên máy chủ.

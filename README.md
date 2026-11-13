@@ -5,11 +5,12 @@ Bài tập lớn cá nhân môn Thiết kế web và Triển khai hệ thống p
 ## Tính năng
 
 - Trang chính có menu điều hướng, phần giới thiệu và ảnh đại diện.
-- Phần học tập trình bày các học phần và sản phẩm dưới dạng bảng.
-- Phần dự án giới thiệu các bài tập C++, portfolio và website thực hành bằng các thẻ responsive.
+- Phần học tập trình bày học kỳ, học phần và sản phẩm; trên điện thoại mỗi dòng chuyển thành thẻ có nhãn.
+- Phần dự án giới thiệu bài học C++, hồ sơ GitHub và website HTML/CSS bằng các thẻ responsive.
 - Form liên hệ gồm họ tên, email và lời nhắn; trình duyệt kiểm tra trường bắt buộc, định dạng email và độ dài nội dung.
 - Trang kết quả có thông báo xác nhận, lưu ý về tính minh họa và liên kết quay lại form.
-- Giao diện thích ứng với màn hình nhỏ, có hiệu ứng hover/focus cho menu, ảnh và thẻ nội dung, đồng thời hỗ trợ cài đặt giảm chuyển động.
+- Giao diện thích ứng với màn hình nhỏ, có hiệu ứng hover/focus cho menu, ảnh, bảng và thẻ dự án, đồng thời hỗ trợ cài đặt giảm chuyển động.
+- Khu vực dự án có nền gradient, điểm nhấn trang trí và liên kết dễ nhận biết.
 - Footer hiển thị thông tin theo hàng ngang khi đủ không gian và tự xuống dòng trên màn hình hẹp.
 
 ## Cấu trúc dự án
@@ -44,3 +45,9 @@ Form dùng phương thức `GET` để mở `ket-qua.html`; dữ liệu nhập c
 - [AI Log](./docs/AI_LOG.md)
 - [Evidence](./docs/evidence.md)
 - [Release Notes](./docs/RELEASE_NOTES.md)
+
+## Liên kết dự án
+
+- Bài học C++ dẫn đến trang giới thiệu khóa học trên CodeLearn.
+- Thẻ hồ sơ cá nhân dẫn đến GitHub `NVAn208`.
+- Liên kết "Trang Web này" hiện chưa có địa chỉ đích và cần được cập nhật trước khi phát hành.

@@ -83,10 +83,30 @@
 
 ### Kết quả
 - Trang chính có các phần giới thiệu, học tập, dự án và liên hệ với giao diện đồng bộ, thích ứng với màn hình nhỏ.
-- Các liên kết dự án đang là nội dung chờ cập nhật, chưa phải liên kết repository đã xác nhận.
+- Liên kết bài học C++ và hồ sơ GitHub đã được bổ sung; liên kết website vẫn cần cập nhật.
 - Footer hiển thị thông tin theo hàng ngang khi đủ không gian.
 - Tài liệu dự án hướng dẫn cách chạy và nêu rõ form chưa gửi email hoặc lưu dữ liệu.
 
 ### Ghi chú
 - Form dùng phương thức GET và trỏ đến `ket-qua.html`; hiện chưa gửi email hoặc lưu dữ liệu lên máy chủ.
 - Dữ liệu nhập có thể xuất hiện trên URL; trang kết quả hiện chỉ hiển thị nội dung minh họa, không xử lý các trường đã gửi.
+
+## 2026-11-08
+
+### Mục tiêu
+- Cải thiện khả năng đọc của bảng học tập và tạo điểm nhấn riêng cho khu vực dự án.
+- Đồng bộ tài liệu với giao diện và nội dung mới nhất.
+
+### Công việc đã thực hiện
+- Tinh chỉnh bảng `.study` với phân chia cột, đường viền và màu nền nhẹ; thiết kế lại dạng thẻ có nhãn trên màn hình nhỏ.
+- Trang trí `.section-alt` bằng nền gradient, điểm nhấn hình học và dải màu ở đầu khu vực.
+- Hoàn thiện màu sắc, trạng thái hover và focus cho các liên kết trong thẻ dự án.
+- Cập nhật README, changelog và release notes để mô tả đúng giao diện, hành vi responsive và đích liên kết dự án.
+
+### Kết quả
+- Bảng học tập và khu vực dự án thống nhất hơn với tông màu chung của trang.
+- Bố cục ở chiều rộng điện thoại không gây tràn ngang; các nhãn cột vẫn hiển thị trong dạng thẻ.
+
+### Ghi chú
+- Liên kết "Trang Web này" vẫn dùng `#` và cần được thay bằng URL thật khi có địa chỉ phát hành.
+- Form liên hệ tiếp tục chỉ dùng để minh họa, không gửi email hoặc lưu dữ liệu.
