@@ -46,3 +46,22 @@
 ### Ghi chú
 - Nên tiếp tục bổ sung các phần như Kỹ năng, Dự án, Kinh nghiệm và Liên hệ để hoàn thiện profile cá nhân.
 - Duy trì cập nhật log và changelog định kỳ để theo dõi tiến độ của dự án.
+
+## 2026-11-06
+
+### Mục tiêu
+- Bổ sung tài liệu ghi chú phát hành cho dự án.
+- Ghi lại các tính năng và cải tiến đã có trong phiên bản hiện tại.
+
+### Công việc đã thực hiện
+- Tạo `docs/RELEASE_NOTES.md` với ghi chú phát hành phiên bản 1.0.0.
+- Tóm tắt các nội dung chính: trang cá nhân, menu điều hướng, ảnh đại diện và giao diện responsive.
+- Ghi lại các thay đổi và những hướng có thể phát triển tiếp.
+
+### Kết quả
+- Dự án có thêm tài liệu mô tả nội dung của bản phát hành.
+- Các thay đổi hiện tại được trình bày để người đọc dễ nắm bắt.
+
+### Ghi chú
+- Cập nhật release notes khi có phiên bản mới hoặc thay đổi đáng kể.
+- Tài liệu này đã được tạo trong workspace; chưa ghi nhận việc đẩy thay đổi này lên GitHub.

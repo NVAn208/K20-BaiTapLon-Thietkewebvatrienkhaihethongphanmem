@@ -2,7 +2,7 @@
 
 Tất cả các thay đổi quan trọng của dự án sẽ được ghi lại tại đây.
 
-## [Unreleased]
+## [V1]
 - Khởi tạo dự án trang cá nhân cơ bản.
 - Tạo cấu trúc HTML ban đầu với phần giới thiệu cá nhân.
 - Thêm file CSS để định dạng giao diện và tạo layout đẹp hơn.
