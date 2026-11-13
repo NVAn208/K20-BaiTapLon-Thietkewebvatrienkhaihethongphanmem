@@ -13,11 +13,13 @@ Tất cả các thay đổi quan trọng của dự án sẽ được ghi lại 
 - Thêm form gửi lời nhắn với các trường họ tên, email và nội dung.
 - Thêm trang `ket-qua.html` làm trang kết quả cho luồng form.
 - Thêm bảng thông tin học tập và các thẻ giới thiệu dự án C++, hồ sơ GitHub, website thực hành.
+- Thêm nhóm kỹ năng trình bày bằng các thẻ responsive.
 
 ### Changed
 - Làm mới giao diện trang chính, form liên hệ và trang kết quả theo cùng tông màu.
 - Làm mới bảng học tập; trên màn hình nhỏ các hàng chuyển thành thẻ có nhãn cho từng cột.
 - Trang trí khu vực dự án với nền gradient, điểm nhấn trang trí và các thẻ dự án đồng bộ.
+- Đồng bộ nền gradient cho các phần học tập, dự án, kỹ năng và liên hệ.
 - Bổ sung trạng thái hover cho hàng trong bảng, thẻ dự án và liên kết dự án.
 - Thu gọn ảnh đại diện trên header thành logo tròn và thêm gạch chân chuyển động cho menu.
 - Bố trí thông tin footer theo hàng ngang và cho phép tự xuống dòng khi màn hình hẹp.

@@ -18,10 +18,12 @@
 | E-05 | Kiểm tra trang chính ở viewport 1280 × 900. | Bảng học tập hiển thị dạng bảng; khu vực dự án hiển thị ba thẻ trên một hàng. | Đạt |
 | E-06 | Kiểm tra trang chính ở viewport 390 × 844. | Ba hàng học tập chuyển thành thẻ có nhãn; khu vực dự án xếp một cột và trang không tràn ngang. | Đạt |
 | E-07 | Kiểm tra khu vực dự án trên desktop và mobile. | Nền `.section-alt`, ba thẻ dự án và liên kết vẫn hiển thị trong bố cục responsive. | Đạt |
+| E-08 | Kiểm tra nhóm kỹ năng và các nền ở viewport 1280 × 900, 390 × 844. | Sáu kỹ năng hiển thị thành lưới ba cột trên desktop, một cột trên mobile; nền Học tập, Dự án, Kỹ năng và Liên hệ dùng cùng gradient. | Đạt |
 
 ## Ghi chú
 
 - Form sử dụng phương thức `GET`, không gửi email và không lưu dữ liệu lên máy chủ.
 - Trang kết quả hiện không đọc hoặc hiển thị lại các giá trị đã gửi.
 - Kiểm tra responsive được thực hiện bằng cách đổi viewport trong trình duyệt, không phải trên thiết bị di động thật.
+- Nền các khu vực được so sánh qua computed styles trong trình duyệt.
 - Các kết quả trên là kiểm thử thủ công trên trình duyệt; dự án chưa có bộ kiểm thử tự động.

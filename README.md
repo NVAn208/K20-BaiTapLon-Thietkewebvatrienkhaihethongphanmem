@@ -7,10 +7,11 @@ Bài tập lớn cá nhân môn Thiết kế web và Triển khai hệ thống p
 - Trang chính có menu điều hướng, phần giới thiệu và ảnh đại diện.
 - Phần học tập trình bày học kỳ, học phần và sản phẩm; trên điện thoại mỗi dòng chuyển thành thẻ có nhãn.
 - Phần dự án giới thiệu bài học C++, hồ sơ GitHub và website HTML/CSS bằng các thẻ responsive.
+- Nhóm kỹ năng hiển thị dưới dạng các thẻ nhỏ có điểm nhấn và hiệu ứng hover.
 - Form liên hệ gồm họ tên, email và lời nhắn; trình duyệt kiểm tra trường bắt buộc, định dạng email và độ dài nội dung.
 - Trang kết quả có thông báo xác nhận, lưu ý về tính minh họa và liên kết quay lại form.
 - Giao diện thích ứng với màn hình nhỏ, có hiệu ứng hover/focus cho menu, ảnh, bảng và thẻ dự án, đồng thời hỗ trợ cài đặt giảm chuyển động.
-- Khu vực dự án có nền gradient, điểm nhấn trang trí và liên kết dễ nhận biết.
+- Các thẻ Học tập, Dự án, Kỹ năng và Liên hệ dùng chung nền gradient xanh nhạt.
 - Footer hiển thị thông tin theo hàng ngang khi đủ không gian và tự xuống dòng trên màn hình hẹp.
 
 ## Cấu trúc dự án

@@ -47,7 +47,7 @@
 - Nên tiếp tục bổ sung các phần như Kỹ năng, Dự án, Kinh nghiệm và Liên hệ để hoàn thiện profile cá nhân.
 - Duy trì cập nhật log và changelog định kỳ để theo dõi tiến độ của dự án.
 
-## 2026-11-06
+## 2026-11-08
 
 ### Mục tiêu
 - Bổ sung tài liệu ghi chú phát hành cho dự án.
@@ -66,7 +66,7 @@
 - Cập nhật release notes khi có phiên bản mới hoặc thay đổi đáng kể.
 - Release notes được tạo trong workspace và sau đó đưa vào bản cập nhật tài liệu trên GitHub.
 
-## 2026-11-07
+## 2026-11-11
 
 ### Mục tiêu
 - Hoàn thiện các nội dung trang cá nhân, luồng form liên hệ và tài liệu dự án.
@@ -91,7 +91,7 @@
 - Form dùng phương thức GET và trỏ đến `ket-qua.html`; hiện chưa gửi email hoặc lưu dữ liệu lên máy chủ.
 - Dữ liệu nhập có thể xuất hiện trên URL; trang kết quả hiện chỉ hiển thị nội dung minh họa, không xử lý các trường đã gửi.
 
-## 2026-11-08
+## 2026-11-12
 
 ### Mục tiêu
 - Cải thiện khả năng đọc của bảng học tập và tạo điểm nhấn riêng cho khu vực dự án.
@@ -110,3 +110,21 @@
 ### Ghi chú
 - Liên kết "Trang Web này" vẫn dùng `#` và cần được thay bằng URL thật khi có địa chỉ phát hành.
 - Form liên hệ tiếp tục chỉ dùng để minh họa, không gửi email hoặc lưu dữ liệu.
+
+## 2026-11-13
+
+### Mục tiêu
+- Hoàn thiện giao diện nhóm kỹ năng và đồng bộ nền các khu vực nội dung chính.
+
+### Công việc đã thực hiện
+- Trình bày danh sách kỹ năng thành lưới thẻ responsive có điểm nhấn màu và hiệu ứng hover.
+- Áp dụng cùng kiểu nền gradient cho phần Học tập, Dự án, Kỹ năng và Liên hệ.
+- Cập nhật README, changelog, release notes và evidence để ghi nhận giao diện và kiểm tra mới.
+
+### Kết quả
+- Nhóm kỹ năng và các phần nội dung có phong cách thống nhất trên máy tính và điện thoại.
+- Đã kiểm tra bằng trình duyệt rằng nền của bốn khu vực sử dụng cùng kiểu gradient.
+
+### Ghi chú
+- Kiểm tra responsive được thực hiện bằng viewport trình duyệt, không phải trên thiết bị di động thật.
+- Form liên hệ không gửi email hoặc lưu dữ liệu lên máy chủ.
