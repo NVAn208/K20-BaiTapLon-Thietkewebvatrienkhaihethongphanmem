@@ -26,7 +26,7 @@ Bài tập lớn cá nhân môn Thiết kế web và Triển khai hệ thống p
 ## Cấu trúc dự án
 
 ```
-fortfolio/ 
+K20-BaiTapLon-Thietkewebvatrienkhaihethongphanmem-main/ 
 |
 ├── assets/                 # Ảnh đại diện
 │   ├── *.jpg               # Ảnh đại diện
