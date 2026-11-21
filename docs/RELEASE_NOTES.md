@@ -1,7 +1,7 @@
 # Release Notes
 
 
-## Version 1.0.0 - 2026-11-06
+## 2026-11-06
 
 ### Highlights
 - Hoàn thành trang cá nhân cơ bản bằng HTML và CSS.
@@ -27,7 +27,7 @@
 ### Notes
 - Dự án mới chỉ ở mức cơ bản và có thể tiếp tục phát triển thêm các phần như kỹ năng, dự án và liên hệ.
 - Các thay đổi tiếp theo sẽ được cập nhật trong `CHANGELOG.md`.
-## [Version 1.0.1] - 2026-11-08
+## 2026-11-08
 
 ### Highlights
 - Làm mới nền và các thành phần giao diện theo tông xanh, phong cách thẻ kính mờ.
@@ -47,7 +47,7 @@
 - Form dùng phương thức GET đến `ket-qua.html`; chưa gửi email hoặc lưu dữ liệu lên máy chủ.
 - Trang `ket-qua.html` hiển thị thông báo minh họa sau khi gửi; không xử lý hoặc lưu các trường dữ liệu.
 
-## [Version 1.0.2] - 2026-11-11
+## 2026-11-11
 
 ### Highlights
 - Mở rộng trang cá nhân với các phần học tập và dự án.
@@ -68,7 +68,7 @@
 - Liên kết "Trang Web này" trong thẻ dự án chưa có địa chỉ đích và cần được cập nhật.
 - Form liên hệ chỉ minh họa luồng GET đến trang kết quả; không gửi email hoặc lưu dữ liệu.
 
-## [Version 1.0.3] - 2026-11-12
+## 2026-11-12
 
 ### Highlights
 - Làm mới bảng học tập và toàn bộ khu vực dự án.
@@ -84,7 +84,7 @@
 - Liên kết "Trang Web này" hiện vẫn là placeholder `#`.
 - Form liên hệ không gửi email và không lưu dữ liệu lên máy chủ.
 
-## [Version 1.0.4] - 2026-11-13
+## 2026-11-13
 
 ### Highlights
 - Bổ sung giao diện cho nhóm kỹ năng.
