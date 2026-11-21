@@ -25,7 +25,8 @@ Bài tập lớn cá nhân môn Thiết kế web và Triển khai hệ thống p
 - B3:Tại pages-build-deployment nhấn truy câp URL dưới phần deploy
 ## Cấu trúc dự án
 
-```fortfolio/ 
+```
+fortfolio/ 
 |
 ├── assets/                 # Ảnh đại diện
 │   ├── *.jpg               # Ảnh đại diện
