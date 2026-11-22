@@ -1,7 +1,7 @@
 # Khai báo AI
 ## Mục đích sử dụng
 - Sử dụng để soát lỗi thành phần code 
-- Nây cấp hệ thống giao diện người xem
+- Nâng cấp hệ thống giao diện người xem
 - Thay đổi nhỏ cho giao diện trở nên sinh đọng và đẹp hơn
 ## AI hỗ trợ
 - AI đã hỗ trợ phần code vẽ hình minh họa trong ket-qua.html
