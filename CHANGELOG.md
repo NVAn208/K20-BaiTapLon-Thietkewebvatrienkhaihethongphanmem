@@ -9,13 +9,13 @@ Tất cả các thay đổi quan trọng của dự án sẽ được ghi lại 
 - Cập nhật bố cục menu, tiêu đề và ảnh đại diện.
 
 ## [2026-11-13]
-### Added
+### Thêm vào
 - Thêm form gửi lời nhắn với các trường họ tên, email và nội dung.
 - Thêm trang `ket-qua.html` làm trang kết quả cho luồng form.
 - Thêm bảng thông tin học tập và các thẻ giới thiệu dự án C++, hồ sơ GitHub, website thực hành.
 - Thêm nhóm kỹ năng trình bày bằng các thẻ responsive.
 
-### Changed
+### Thay đổi
 - Làm mới giao diện trang chính, form liên hệ và trang kết quả theo cùng tông màu.
 - Làm mới bảng học tập; trên màn hình nhỏ các hàng chuyển thành thẻ có nhãn cho từng cột.
 - Trang trí khu vực dự án với nền gradient, điểm nhấn trang trí và các thẻ dự án đồng bộ.
@@ -26,11 +26,11 @@ Tất cả các thay đổi quan trọng của dự án sẽ được ghi lại 
 - Cập nhật README, AI Log và Release Notes theo nội dung hiện tại của dự án.
 - Bổ sung `docs/evidence.md` ghi lại các bước kiểm tra form thủ công.
 
-### Improved
+### Cải tiến
 - Tối ưu bố cục các phần nội dung cho màn hình nhỏ và hỗ trợ tùy chọn giảm chuyển động.
 - Bổ sung trạng thái focus cho các thành phần tương tác.
 
-### Notes
+### Ghi chú
 - Form dùng phương thức GET đến `ket-qua.html`; dữ liệu có thể xuất hiện trên URL.
 - Form chỉ phục vụ minh họa, không gửi email, không lưu dữ liệu và trang kết quả không xử lý các trường đã gửi.
 - Liên kết "Trang Web này" trong thẻ dự án hiện chưa có địa chỉ đích và cần được cập nhật.
