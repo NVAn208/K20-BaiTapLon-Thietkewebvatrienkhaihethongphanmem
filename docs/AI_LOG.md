@@ -11,6 +11,7 @@
 ### Giữ
 - Giữ thay đổi nền backgroud
 - giữ lại hình vẽ dấu tích hoàn thành ở ket-qua.html
+- Nâng cấp giao điện người xem trở nên hấp dẫn, dễ nhìn hơn.
 ### Sửa
 - Sửa những dòng code lỗi chính tả hoặc sai cú pháp được AI đánh dấu 
 - Sửa màu backgroud do AI chọn
